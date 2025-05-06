@@ -1,0 +1,3 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+abonne		TAR	392	nouvelle taille enregistrement : 392
+abonne	abo_mdp	RUB+		abo_mdp est une nouvelle rubrique

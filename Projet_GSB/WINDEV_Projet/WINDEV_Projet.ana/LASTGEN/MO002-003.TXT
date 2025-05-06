@@ -1,0 +1,19 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+abonne		NFI		nouveau fichier de données
+abonnement		NFI		nouveau fichier de données
+prestation		NFI		nouveau fichier de données
+prestationabonnement		NFI		nouveau fichier de données
+reservation		NFI		nouveau fichier de données
+salle		NFI		nouveau fichier de données
+seance		NFI		nouveau fichier de données
+typeabonnement		NFI		nouveau fichier de données
+abonne_ibfk_1		NWL	salle (sal_id) et abonne (abo_club_id)	Nouvelle liaison entre les fichiers de données salle (sal_id) et abonne (abo_club_id)
+abonnement_ibfk_1		NWL	abonne (abo_matricule) et abonnement (ab_abo_matricule)	Nouvelle liaison entre les fichiers de données abonne (abo_matricule) et abonnement (ab_abo_matricule)
+abonnement_ibfk_2		NWL	typeabonnement (tab_code) et abonnement (ab_tab_code)	Nouvelle liaison entre les fichiers de données typeabonnement (tab_code) et abonnement (ab_tab_code)
+prestationabonnement_ibfk_1		NWL	typeabonnement (tab_code) et prestationabonnement (apr_tab_code)	Nouvelle liaison entre les fichiers de données typeabonnement (tab_code) et prestationabonnement (apr_tab_code)
+prestationabonnement_ibfk_2		NWL	prestation (pre_code) et prestationabonnement (apr_pre_code)	Nouvelle liaison entre les fichiers de données prestation (pre_code) et prestationabonnement (apr_pre_code)
+reservation_ibfk_1		NWL	seance (sea_id) et reservation (res_sea_id)	Nouvelle liaison entre les fichiers de données seance (sea_id) et reservation (res_sea_id)
+reservation_ibfk_2		NWL	abonne (abo_matricule) et reservation (res_abo_id)	Nouvelle liaison entre les fichiers de données abonne (abo_matricule) et reservation (res_abo_id)
+seance_ibfk_1		NWL	salle (sal_id) et seance (sea_sal_id)	Nouvelle liaison entre les fichiers de données salle (sal_id) et seance (sea_sal_id)
+seance_ibfk_2		NWL	prestation (pre_code) et seance (sea_pre_code)	Nouvelle liaison entre les fichiers de données prestation (pre_code) et seance (sea_pre_code)
+CnxMaria_lafbsWINDEV		CNX		

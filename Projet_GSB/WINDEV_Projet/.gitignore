@@ -1,0 +1,12 @@
+*.env
+*.log
+*.bak
+*.tmp
+*.r*
+*.ndx
+*.mmo
+*.fic
+*.ftx
+*.wdf
+*.wdk
+/Exe/
